@@ -1,0 +1,35 @@
+<html>
+<A HREF="head.htm"> <IMG src = "nazad.jpg" width = 150 height = 60 Alt = "Вернуться на главный сайт"> </A>
+<head>
+<link rel="stylesheet" href="css.css">
+<meta charset="UTF-8">
+</head>
+<body>
+<h1 align = "center">Здесь можно оставить комменатрии о сайте</h1>
+<meow>
+<center>
+<form>
+Поделитесь мнением о сайте тут: 
+<br>
+<input type="text" style="width: 300px; height: 70px;" id="text1" placeholder="Оставьте отзыв...">
+<br> 
+<button type="button" style="width: 100px; height: 50px;" id="replaceText">Отправить</button>
+<br> <br> <br>
+Наш любимый пользователь (˶ᵔ ᵕ ᵔ˶)
+<br>
+<input type="text" style="width: 300px; height: 70px;" id="text2"  readonly>
+</form>
+
+<script language="JavaScript">
+document.getElementById("replaceText").addEventListener("click", () => {
+let text1 = document.getElementById("text1").value;
+let text2 = document.getElementById("text2");
+text2.value = text1;
+    
+});
+</script>
+</center>
+</meow>
+<br> <br> <br>
+</body>
+</html
